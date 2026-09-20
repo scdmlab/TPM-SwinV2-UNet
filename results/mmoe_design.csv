@@ -1,0 +1,14 @@
+factor,setting,n,miou,paired_change,reference
+Expert count,3 experts,1,0.8768,-0.031,five experts seed-1
+Expert count,4 experts,1,0.8828,-0.025,five experts seed-1
+Expert count,5 experts (main),1,0.9074,0,reference
+Expert count,6 experts,1,0.8577,-0.05,five experts seed-1
+Routing,top-k=1,3,0.7581,-0.147,top-k=3
+Routing,top-k=2,3,0.8751,-0.03,top-k=3
+Routing,top-k=3 (main),3,0.9049,0,reference
+Routing,top-k=4,3,0.8936,-0.011,top-k=3
+Routing,top-k=5,3,0.8979,-0.007,top-k=3
+Gate structure,one shared gate,3,0.8945,-0.01,class-specific gates
+Hint content,aligned bitemporal change,2,0.9038,0,reference
+Hint content,moment-matched Gaussian field,2,0.76,-0.144,aligned hint
+Hint content,real hint from another patch,2,0.756,-0.148,aligned hint

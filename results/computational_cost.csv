@@ -1,0 +1,8 @@
+configuration,parameters_m,gflops,latency_ms,patches_per_s,peak_memory_mib
+U-Net,24.49,17.5,4.68,213.8,143
+DeepLabv3+,22.49,17.6,4.69,213.0,132
+SegFormer,21.93,14.9,4.97,201.2,192
+Tri-stream SwinV2-UNet,97.75,103.8,38.74,25.8,602
+Tri-stream + PPM-Lite,100.55,451.7,57.85,17.3,1287
+Tri-stream + MMoE,98.29,174.7,133.8,7.5,1761
+TPM-SwinV2-UNet,101.1,522.6,140.68,7.1,1675

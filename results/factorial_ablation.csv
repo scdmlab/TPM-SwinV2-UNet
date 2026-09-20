@@ -1,0 +1,5 @@
+configuration,ppm_lite,mmoe,miou,miou_sd,delta
+Tri-stream SwinV2-UNet,no,no,0.7615,0.0021,0
+Tri-stream + PPM-Lite,yes,no,0.7631,0.0011,0.0016
+Tri-stream + MMoE,no,yes,0.8236,0.0041,0.0621
+TPM-SwinV2-UNet,yes,yes,0.9049,0.0042,0.1434

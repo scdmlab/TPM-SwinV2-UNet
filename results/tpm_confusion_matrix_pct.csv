@@ -1,0 +1,5 @@
+reference,pred_unburned_pct,pred_low_pct,pred_moderate_pct,pred_severe_pct
+Unburned,95.195,4.745,0.054,0.006
+Low,2.864,95.13,2.006,0
+Moderate,0.15,0.882,97.39,1.578
+Severe,0.002,0,1.122,98.876

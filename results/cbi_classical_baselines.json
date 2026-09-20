@@ -1,0 +1,2299 @@
+{
+  "status": "complete",
+  "metrics": {
+    "mean_s0": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.0064305985777338,
+          "mae": 0.9354872727272728,
+          "bias": -0.13799878787878764
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.17002115214813054,
+          "mae": 0.1405155555555556,
+          "bias": -0.01845333333333306
+        }
+      },
+      "macro": {
+        "rmse": 0.5882258753629321,
+        "mae": 0.5380014141414142,
+        "bias": -0.07822606060606035
+      }
+    },
+    "median_s0": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 0.9971345309070752,
+          "mae": 0.8922727272727271,
+          "bias": 0.020454545454545434
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.21946905628508695,
+          "mae": 0.19666666666666668,
+          "bias": 0.14000000000000004
+        }
+      },
+      "macro": {
+        "rmse": 0.608301793596081,
+        "mae": 0.5444696969696969,
+        "bias": 0.08022727272727273
+      }
+    },
+    "dNBR_s0": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.1801966854134738,
+          "mae": 1.0764222154640979,
+          "bias": -0.7477391867548181
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.3337285255984545,
+          "mae": 0.2834232069352635,
+          "bias": -0.25239858768736606
+        }
+      },
+      "macro": {
+        "rmse": 0.7569626055059642,
+        "mae": 0.6799227111996807,
+        "bias": -0.5000688872210921
+      }
+    },
+    "RdNBR_s0": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 0.9833758060306416,
+          "mae": 0.8654335426276166,
+          "bias": -0.5380019365416288
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.3842015988236516,
+          "mae": 0.31799793139807486,
+          "bias": -0.31508963540198504
+        }
+      },
+      "macro": {
+        "rmse": 0.6837887024271466,
+        "mae": 0.5917157370128457,
+        "bias": -0.4265457859718069
+      }
+    },
+    "dNBR2_s0": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.1076107316402974,
+          "mae": 1.0005765870753736,
+          "bias": -0.7163783301770195
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.3180775918418508,
+          "mae": 0.27377850198458203,
+          "bias": -0.2547490395326533
+        }
+      },
+      "macro": {
+        "rmse": 0.7128441617410741,
+        "mae": 0.6371775445299778,
+        "bias": -0.48556368485483636
+      }
+    },
+    "SVR_s0": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.064209457809359,
+          "mae": 1.0065900020999818,
+          "bias": -0.3503983188616742
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.21674693477076568,
+          "mae": 0.18564129153741263,
+          "bias": 0.08649335408961374
+        }
+      },
+      "macro": {
+        "rmse": 0.6404781962900623,
+        "mae": 0.5961156468186972,
+        "bias": -0.13195248238603025
+      }
+    },
+    "RF_s1": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.1570674404018675,
+          "mae": 1.0185827361974757,
+          "bias": -0.8989728389136843
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.20549183205539157,
+          "mae": 0.16818266852712185,
+          "bias": -0.1115403623245091
+        }
+      },
+      "macro": {
+        "rmse": 0.6812796362286295,
+        "mae": 0.5933827023622988,
+        "bias": -0.5052566006190967
+      }
+    },
+    "XGBoost_s1": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.1363986612264372,
+          "mae": 0.993759809461507,
+          "bias": -0.8914235216379168
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.14039747468523942,
+          "mae": 0.11240653355916337,
+          "bias": -0.06898840745290118
+        }
+      },
+      "macro": {
+        "rmse": 0.6383980679558383,
+        "mae": 0.5530831715103351,
+        "bias": -0.480205964545409
+      }
+    },
+    "RF_s2": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.181804938860982,
+          "mae": 1.0371950528768716,
+          "bias": -0.9134980032889115
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.19600638527434194,
+          "mae": 0.16399869354437321,
+          "bias": -0.10945753330809486
+        }
+      },
+      "macro": {
+        "rmse": 0.6889056620676619,
+        "mae": 0.6005968732106224,
+        "bias": -0.5114777682985032
+      }
+    },
+    "XGBoost_s2": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.0394125896362847,
+          "mae": 0.8930320703983307,
+          "bias": -0.7598323790593582
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.2503406345966009,
+          "mae": 0.21453446308771765,
+          "bias": -0.18014485120773313
+        }
+      },
+      "macro": {
+        "rmse": 0.6448766121164428,
+        "mae": 0.5537832667430241,
+        "bias": -0.4699886151335457
+      }
+    },
+    "RF_s3": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.203938802257223,
+          "mae": 1.0605504190410084,
+          "bias": -0.9412045443474617
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.2033042846848392,
+          "mae": 0.16331710765201501,
+          "bias": -0.1157863908427376
+        }
+      },
+      "macro": {
+        "rmse": 0.7036215434710311,
+        "mae": 0.6119337633465117,
+        "bias": -0.5284954675950997
+      }
+    },
+    "XGBoost_s3": {
+      "by_fire": {
+        "Fuller": {
+          "n": 22,
+          "rmse": 1.1452445287870527,
+          "mae": 0.9977606715939263,
+          "bias": -0.8181224217198114
+        },
+        "Legion Lake": {
+          "n": 6,
+          "rmse": 0.06988046716200622,
+          "mae": 0.0628334299723307,
+          "bias": -0.024794821739196744
+        }
+      },
+      "macro": {
+        "rmse": 0.6075624979745294,
+        "mae": 0.5302970507831285,
+        "bias": -0.4214586217295041
+      }
+    }
+  },
+  "predictions": {
+    "mean_s0": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 1.861546666666667
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.861546666666667
+      }
+    ],
+    "median_s0": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 2.02
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 2.02
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 2.02
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 2.02
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 2.02
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 2.02
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 2.02
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 2.02
+      }
+    ],
+    "dNBR_s0": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.4428548435856856
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 1.3310887872024337
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 1.0743697123689724
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 1.1377536709684402
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 1.240004356271438
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.3204722019032102
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.2470908138136623
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 1.5535540445647724
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 1.2600544154270632
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.338020571545737
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.2579846485143333
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.3550595593861638
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.3045123201900766
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.3130542260302167
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.2356037643617914
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.320042115592611
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 1.087436219966942
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.9648061535967873
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 1.218861449094716
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 1.2258349855445485
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 1.087363895471934
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.2239151359924696
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.7203815127401274
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.5648925104794364
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.9126923450035649
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.3930175261156366
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 1.755855003966921
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.418769575570117
+      }
+    ],
+    "RdNBR_s0": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 2.2855807837917745
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 1.8066056983820107
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 0.5149662220702391
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 0.9457043790125572
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 1.439612027686802
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.5661664415583054
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.3192994626843522
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 3.0
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 1.5691197837234918
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 3.0
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.3454083949097346
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.6405553749536903
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.453515625256223
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.4950646599340602
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.2429707792948834
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.6553571903082913
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 0.8401474509691853
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.5355921051015791
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 1.2194658356505506
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 1.2285390111770367
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 0.8335989579383307
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.2166872116810699
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.6805329789197812
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.462627126778596
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.8287248879882696
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.3016995593873042
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 1.7777094533808713
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.3381681811332675
+      }
+    ],
+    "dNBR2_s0": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.4167013738772878
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 1.24876641625164
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 0.9762399409448249
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 1.11083721924714
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 1.2044204583970655
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.3589137631085144
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.3021052397233026
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 1.6019096898745349
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 1.1996967603801294
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.3273567591346662
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.4128828325578469
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.5006495833029942
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.5487351050468794
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.3731807648385739
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.41562620967502
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.3415815861889944
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 0.9605906845133907
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.9056293461477009
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 1.2580146747151668
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 1.2725675369201266
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 1.1905527729376724
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.3027180183220999
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.6377279869105155
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.5177788512833539
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.8770883873557862
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.444200841999482
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 1.7958407756099042
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.4788689196450382
+      }
+    ],
+    "SVR_s0": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.592588769253898
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 1.8247965717336012
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 1.6899222968866583
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 1.507589234630016
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 1.5989309742193791
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.580033301999773
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.5487754981034452
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 1.9345939298456065
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 1.803948292003954
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.6157070759799816
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.693187447735653
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.6597773886153646
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.6967529912238828
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.5874766497550485
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.7001821431705875
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.618569809778588
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 1.6601812441539445
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 1.612739901993833
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 1.5841392971687323
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 1.5958581188004994
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 1.6226505756213176
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.552835472369404
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.9911928171311706
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 2.009083537213987
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 2.1191805142418003
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.5234726504426161
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 2.3307076721077955
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.8253229334003127
+      }
+    ],
+    "RF_s1": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.589850245671812
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 0.8361853788694957
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 0.6549373612841406
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 0.6167777349382643
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 0.6416201633431926
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.2805084348256668
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.2923102082802815
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 2.190718573300066
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 0.7975600096635386
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.505949129288195
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.341505376883608
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.34481401008619
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.4248305436612747
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.3994287728291654
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.3305049158250586
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.2061529708812426
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 0.6131968258473551
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.6375746829902124
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 0.7050132354712276
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 0.8875002969146858
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 0.6747804089309382
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.2408782641133373
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.7949350087161295
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.6064060893166
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.9149919098917088
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.5868956917974515
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 2.1111224385932696
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.5964066877377858
+      }
+    ],
+    "XGBoost_s1": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.6063429117202759
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 0.9472044706344604
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 0.6005211472511292
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 0.41859129071235657
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 0.4566521942615509
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.2407344579696655
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.1099456548690796
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 2.145320415496826
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 0.9453420639038086
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.5901457071304321
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.498992919921875
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.581979513168335
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.572831392288208
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.4842197895050049
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.498992919921875
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.2968612909317017
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 0.4119304120540619
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.703247606754303
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 0.8817280530929565
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 0.559352695941925
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 0.8330504298210144
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 0.9946951866149902
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.6314719915390015
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.7356289625167847
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.8803969621658325
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.6579711437225342
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 2.259857416152954
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.7007430791854858
+      }
+    ],
+    "RF_s2": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.5478434905211742
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 0.8450830820334215
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 0.6597875425728809
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 0.6310924603217984
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 0.657849803672892
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.282335989608688
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.20755996606279
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 2.2328134194710505
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 0.7929060192351086
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.5198904502697586
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.2627112169785408
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.3166022676917164
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.4123140949690147
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.344432411589485
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.2572356812642551
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.2368626253340738
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 0.6310924603217984
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.6597875425728809
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 0.7274052773658665
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 0.8262252743411135
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 0.6855021248239634
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.1557107266216757
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.8011588598084924
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.6372825922889453
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.9024646209003426
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.5842455087368768
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 2.0934130994739264
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.604690118942847
+      }
+    ],
+    "XGBoost_s2": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.8830235004425049
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 1.1179736852645874
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 0.6123934388160706
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 0.6038358211517334
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 0.5641052722930908
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.3326607942581177
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.351915717124939
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 2.5709776878356934
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 1.2194204330444336
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.789259910583496
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.5022507905960083
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.564312219619751
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.5245144367218018
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.6783937215805054
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.5022507905960083
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.4416512250900269
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 0.5267964601516724
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.7365862727165222
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 0.9683597087860107
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 0.7566946148872375
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 0.8573784828186035
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.1689326763153076
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.5307692289352417
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.6787408590316772
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.8425463438034058
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.529002070426941
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 2.270622491836548
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.3474498987197876
+      }
+    ],
+    "RF_s3": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.5239279664045102
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 0.8003372771430066
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 0.6457367173106818
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 0.6135419387559033
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 0.6445148423000714
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.2085678123012606
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.2098562812351048
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 2.1626924049553384
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 0.7651816235604779
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.4695388877054307
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.2526215482319967
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.2725207909214968
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.3667670242004721
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.2629431932536417
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.2402195460674945
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.169923914062245
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 0.6178323233712879
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.6392355809470456
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 0.6988333191565487
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 0.8678531713270388
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 0.681994094700449
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.1688597664443399
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.777586771191142
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.6063350900667979
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.9050053792366903
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.5877609888885635
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 2.101359473756464
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.6072339518039167
+      }
+    ],
+    "XGBoost_s3": [
+      {
+        "id": "Fuller::2016093_066",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.6205180883407593
+      },
+      {
+        "id": "Fuller::2016093_067",
+        "event": "Fuller",
+        "cbi": 1.24,
+        "prediction": 1.2196706533432007
+      },
+      {
+        "id": "Fuller::2016093_073",
+        "event": "Fuller",
+        "cbi": 0.0,
+        "prediction": 0.8654494881629944
+      },
+      {
+        "id": "Fuller::2016093_075",
+        "event": "Fuller",
+        "cbi": 0.74,
+        "prediction": 0.6300154328346252
+      },
+      {
+        "id": "Fuller::2016093_076",
+        "event": "Fuller",
+        "cbi": 0.87,
+        "prediction": 0.6309111714363098
+      },
+      {
+        "id": "Fuller::2016093_077",
+        "event": "Fuller",
+        "cbi": 2.45,
+        "prediction": 1.3179657459259033
+      },
+      {
+        "id": "Fuller::2016093_083",
+        "event": "Fuller",
+        "cbi": 2.83,
+        "prediction": 1.184322714805603
+      },
+      {
+        "id": "Fuller::2016093_084",
+        "event": "Fuller",
+        "cbi": 2.72,
+        "prediction": 2.1334245204925537
+      },
+      {
+        "id": "Fuller::2016093_086",
+        "event": "Fuller",
+        "cbi": 1.04,
+        "prediction": 1.1918866634368896
+      },
+      {
+        "id": "Fuller::2016093_087",
+        "event": "Fuller",
+        "cbi": 2.85,
+        "prediction": 1.58742094039917
+      },
+      {
+        "id": "Fuller::2016093_088",
+        "event": "Fuller",
+        "cbi": 2.86,
+        "prediction": 1.3194074630737305
+      },
+      {
+        "id": "Fuller::2016093_089",
+        "event": "Fuller",
+        "cbi": 2.89,
+        "prediction": 1.5137449502944946
+      },
+      {
+        "id": "Fuller::2016093_090",
+        "event": "Fuller",
+        "cbi": 2.87,
+        "prediction": 1.3604371547698975
+      },
+      {
+        "id": "Fuller::2016093_091",
+        "event": "Fuller",
+        "cbi": 2.68,
+        "prediction": 1.5068516731262207
+      },
+      {
+        "id": "Fuller::2016093_092",
+        "event": "Fuller",
+        "cbi": 2.9,
+        "prediction": 1.3194074630737305
+      },
+      {
+        "id": "Fuller::2016093_093",
+        "event": "Fuller",
+        "cbi": 2.58,
+        "prediction": 1.3248611688613892
+      },
+      {
+        "id": "Fuller::2016093_094",
+        "event": "Fuller",
+        "cbi": 0.38,
+        "prediction": 0.6300154328346252
+      },
+      {
+        "id": "Fuller::2016093_095",
+        "event": "Fuller",
+        "cbi": 0.21,
+        "prediction": 0.9186691641807556
+      },
+      {
+        "id": "Fuller::2016093_096",
+        "event": "Fuller",
+        "cbi": 2.48,
+        "prediction": 0.9640067219734192
+      },
+      {
+        "id": "Fuller::2016093_097",
+        "event": "Fuller",
+        "cbi": 2.7,
+        "prediction": 0.7004559636116028
+      },
+      {
+        "id": "Fuller::2016093_098",
+        "event": "Fuller",
+        "cbi": 1.64,
+        "prediction": 0.9580143690109253
+      },
+      {
+        "id": "Fuller::2016093_099",
+        "event": "Fuller",
+        "cbi": 2.19,
+        "prediction": 1.093849778175354
+      },
+      {
+        "id": "Legion Lake::LL01",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.6768138408660889
+      },
+      {
+        "id": "Legion Lake::LL15",
+        "event": "Legion Lake",
+        "cbi": 2.01,
+        "prediction": 1.9085078239440918
+      },
+      {
+        "id": "Legion Lake::LL16",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.8946527242660522
+      },
+      {
+        "id": "Legion Lake::LL17",
+        "event": "Legion Lake",
+        "cbi": 1.82,
+        "prediction": 1.7220559120178223
+      },
+      {
+        "id": "Legion Lake::LL18",
+        "event": "Legion Lake",
+        "cbi": 2.19,
+        "prediction": 2.2294631004333496
+      },
+      {
+        "id": "Legion Lake::LL19",
+        "event": "Legion Lake",
+        "cbi": 1.72,
+        "prediction": 1.6997376680374146
+      }
+    ]
+  }
+}
