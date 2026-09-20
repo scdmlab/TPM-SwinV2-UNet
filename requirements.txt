@@ -1,0 +1,13 @@
+numpy
+rasterio
+torch
+torchvision
+scikit-learn
+xgboost
+threadpoolctl
+tqdm
+Pillow
+matplotlib
+seaborn
+segmentation-models-pytorch
+

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: TPM-SwinV2-UNet
+message: Please cite the associated article when using this code or its reported results.
+type: software
+authors:
+  - family-names: Cai
+    given-names: Kun
+repository-code: https://github.com/scdmlab/TPM-SwinV2-UNet
+date-released: 2026-09-20

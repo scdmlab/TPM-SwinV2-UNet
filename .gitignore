@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.ckpt
+*.tif
+*.tiff
+*.npz
+*.npy
+*.log
+*.pid
+.idea/
+.vscode/
+runs/
+data/raw/
+
